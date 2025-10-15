@@ -10,7 +10,7 @@ Inside the folder "RoverSpeedControl" you can find the Matlab/Simulink files to 
 
 ### Images of the project
 Pictures of the divice finished.
-![Hardware](RoverSpeedControl/img/Planta_Perfil.pdf)
+![Hardware](RoverSpeedControl/img/Planta_Perfil.png)
 
 
 ## Differential Probe
