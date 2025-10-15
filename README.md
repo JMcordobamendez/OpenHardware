@@ -9,7 +9,8 @@ The control algorithm used is a "Linear-Quadratic Regulator" (LQR), it is an Sta
 Inside the folder "RoverSpeedControl" you can find the Matlab/Simulink files to modelate the system, design and tume the LQR controller, the schematic to understand how the hardware is designed, gerber files to manufacture a copy of the hardware, Bill Of Materials (BOM) file to buy the electronic components and source files to program the ESP32 with the algorithms to run it as I did.
 
 ### Images of the project
-
+Pictures of the divice finished.
+![Hardware](RoverSpeedControl/img/Planta_Perfil.pdf)
 
 
 ## Differential Probe
