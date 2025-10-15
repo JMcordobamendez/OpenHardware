@@ -1,6 +1,17 @@
 # OpenHardware
 In this repository I will upload open hardware projects made by me from time to time.
 
+## Rover Speed Controller
+In this project i have developed a rover speed controller using a multicore embedded system (ESP32), the core 0 is managing the communication tasks (decoding the wheels speed reference given by a RF receiver) and the core 1 is managing the control algorithm.
+
+The control algorithm used is a "Linear-Quadratic Regulator" (LQR), it is an State-Space Controller (the rover is a MIMO system) based on "Optimal Control Theory". The communications between the cores is managed by a Real Time Operating System (FreeRTOS). 
+
+Inside the folder "RoverSpeedControl" you can find the Matlab/Simulink files to modelate the system, design and tume the LQR controller, the schematic to understand how the hardware is designed, gerber files to manufacture a copy of the hardware, Bill Of Materials (BOM) file to buy the electronic components and source files to program the ESP32 with the algorithms to run it as I did.
+
+### Images of the project
+
+
+
 ## Differential Probe
 In this project I have developed a differential probe for my oscilloscope (ADP3450). The device is capable of measuring a voltage range between +- 500V, the user can change the scale from x100 to x10 (reducing the full scale range to +- 50V). The bandwith of the probe is around 10 MHz. Inside the directory people can find the schematic, gerber files and LTspice models to analyce the analog circuitry.
 
@@ -16,11 +27,3 @@ Real behaviour doing a test with the ADP3450
 Test setup.
 ![Test_Real](https://github.com/JMcordobamendez/OpenHardware/assets/79694677/a580dd4b-7fc1-4264-9605-53a9642e52a9)
 
-## Rover Speed Controller
-In this project i have developed a rover speed controller using a multicore embedded system (ESP32), the core 0 is managing the communication tasks (decoding the wheels speed reference given by a RF receiver) and the core 1 is managing the control algorithm.
-
-The control algorithm used is a "Linear-Quadratic Regulator" (LQR), it is an State-Space Controller (the rover is a MIMO system) based on "Optimal Control Theory". The communications between the cores is managed by a Real Time Operating System (FreeRTOS). 
-
-Inside the folder "RoverSpeedControl" you can find the Matlab/Simulink files to modelate the system, design and tume the LQR controller, the schematic to understand how the hardware is designed, gerber files to manufacture a copy of the hardware, Bill Of Materials (BOM) file to buy the electronic components and source files to program the ESP32 with the algorithms to run it as I did.
-
-### Images of the project
