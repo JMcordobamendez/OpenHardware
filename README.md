@@ -13,6 +13,7 @@ Pictures of the device finished.
 ![Hardware](RoverSpeedControl/img/Planta_Perfil.png)
 High-Level Architecture System Diagram.
 ![HLAR](RoverSpeedControl/img/Hardware_Sch.png)
+
 Picture of the "Computer-Aided Design" (CAD) 3D Model given by Kicad EDA.
 ![CAD](RoverSpeedControl/img/CAD.png)
 Linear-Quadratic Regulator controller, from theory to implementation.
