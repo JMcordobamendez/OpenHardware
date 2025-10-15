@@ -9,8 +9,15 @@ The control algorithm used is a "Linear-Quadratic Regulator" (LQR), it is an Sta
 Inside the folder "RoverSpeedControl" you can find the Matlab/Simulink files to modelate the system, design and tume the LQR controller, the schematic to understand how the hardware is designed, gerber files to manufacture a copy of the hardware, Bill Of Materials (BOM) file to buy the electronic components and source files to program the ESP32 with the algorithms to run it as I did.
 
 ### Images of the project
-Pictures of the divice finished.
+Pictures of the device finished.
 ![Hardware](RoverSpeedControl/img/Planta_Perfil.png)
+High-Level Architecture System Diagram.
+![HLAR](RoverSpeedControl/img/Hardware_Sch.png)
+Picture of the "Computer-Aided Design" (CAD) 3D Model given by Kicad EDA.
+![CAD](RoverSpeedControl/img/CAD.png)
+Linear-Quadratic Regulator controller, from theory to implementation.
+![LQR](RoverSpeedControl/img/Controller.png)
+
 
 
 ## Differential Probe
@@ -23,7 +30,7 @@ The device in reality after the manufacturing process.
 ![Real](https://github.com/JMcordobamendez/OpenHardware/assets/79694677/1922a0cd-cd09-43c2-b694-89d4b15a0b88)
 Simulated behaviour using the LTspice software.
 ![Simulation_Result](https://github.com/JMcordobamendez/OpenHardware/assets/79694677/7e137dad-4113-4fb5-b943-eaaa4a9e37b5)
-Real behaviour doing a test with the ADP3450
+Real behaviour doing a test with the ADP3450.
 ![-20dB](https://github.com/JMcordobamendez/OpenHardware/assets/79694677/b32e05de-6dd4-4159-a5e1-706a3818a937)
 Test setup.
 ![Test_Real](https://github.com/JMcordobamendez/OpenHardware/assets/79694677/a580dd4b-7fc1-4264-9605-53a9642e52a9)
